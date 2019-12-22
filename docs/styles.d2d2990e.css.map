@@ -1,0 +1,1 @@
+{"version":3,"sources":["styles.scss"],"names":[],"mappings":"AAAA,KACE,QAAA,CACA,UAGF,eAGE,UAAA,CACA","file":"styles.d2d2990e.css","sourceRoot":"..","sourcesContent":["body {\n  margin: 0;\n  padding: 0;\n}\n\nhtml,\nbody,\n#map {\n  width: 100%;\n  height: 100%;\n}"]}
