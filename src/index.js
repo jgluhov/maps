@@ -5,9 +5,9 @@ ymaps.ready(function() {
   });
 
   const objectManager = new ymaps.LoadingObjectManager(
-    'http://localhost:8080/tile?bbox=%b', {
-        clusterize: false,
-        splitRequests: false
+    'https://desolate-forest-76254.herokuapp.com/tile?bbox=%b', {
+      clusterize: false,
+      splitRequests: false
   });
 
   map.geoObjects.add(objectManager);
