@@ -50,6 +50,10 @@ app.get('/tile', (req, res) => {
   });
 })
 
+app.get('/', (req, res) => {
+  res.send('OK');
+});
+
 app.listen(8080, function () {
   console.log('Example app listening on port 8080!');
 });
