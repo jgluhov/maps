@@ -54,6 +54,6 @@ app.get('/', (req, res) => {
   res.send('OK');
 });
 
-app.listen(8080, function () {
+app.listen(process.env.PORT || 5000, function () {
   console.log('Example app listening on port 8080!');
 });
