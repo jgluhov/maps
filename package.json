@@ -4,13 +4,13 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "yarn client && yarn server",
-    "client": "parcel index.html",
-    "server": "node --experimental-modules server.mjs"
+    "start": "node --experimental-modules server.mjs",
+    "client": "./node_modules/.bin/parcel index.html"
   },
   "dependencies": {
     "@types/yandex-maps": "^2.1.8",
     "express": "^4.17.1",
+    "parcel": "^1.12.4",
     "random-float": "^2.0.0"
   },
   "devDependencies": {
