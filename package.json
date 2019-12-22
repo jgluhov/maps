@@ -1,0 +1,20 @@
+{
+  "name": "lazy-maps",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "yarn client && yarn server",
+    "client": "parcel index.html",
+    "server": "node --experimental-modules server.mjs"
+  },
+  "dependencies": {
+    "@types/yandex-maps": "^2.1.8",
+    "express": "^4.17.1",
+    "random-float": "^2.0.0"
+  },
+  "devDependencies": {
+    "sass": "^1.24.0",
+    "typescript": "^3.7.4"
+  }
+}
