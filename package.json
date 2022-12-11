@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@types/yandex-maps": "^2.1.8",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "parcel": "^1.12.4",
     "random-float": "^2.0.0"
   },
